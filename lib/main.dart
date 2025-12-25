@@ -23,9 +23,14 @@ class MyApp extends StatelessWidget {
           useInheritedMediaQuery: true,
 
           debugShowCheckedModeBanner: false,
-          home: SplashScreen(),
+          home: HomeScreen(),
         );
       },
     );
   }
 }
+/*
+git add .
+git commit -m "your commit message"
+git push
+*/
